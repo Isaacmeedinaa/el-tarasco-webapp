@@ -20,11 +20,11 @@ router.get("/about-us.html", function (req, res, next) {
   });
 });
 
-router.get("/menu.html", function (req, res, next) {
-  res.sendFile("public/menu.html", {
-    root: "./",
-  });
-});
+// router.get("/menu.html", function (req, res, next) {
+//   res.sendFile("public/menu.html", {
+//     root: "./",
+//   });
+// });
 
 router.get("/gallery.html", function (req, res, next) {
   res.sendFile("public/gallery.html", {
